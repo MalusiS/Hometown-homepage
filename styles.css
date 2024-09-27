@@ -161,7 +161,7 @@ nav ul {
 
 .hero-text > p {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 900;
     margin-top: -5%;
 }
 
@@ -196,8 +196,7 @@ nav ul {
 
 .places {
     padding: 4rem 2rem;
-    background-image: linear-gradient(45deg, #ffe761, #2e3944, #ffe761, #2e3944, #ffe761);
-    text-shadow: 1px 1px 4px black;
+    background-image: linear-gradient(45deg, #ffe761, #494848, #2e3944, #494848, #2e3944, #494848, #2e3944, #494848, #2e3944, #494848, #ffe761);
 }
 
 .about-header {
@@ -346,7 +345,7 @@ nav ul {
 }
 
 .tour-text {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-weight: 900;
     text-align: center;
     margin: 2rem 20rem;
