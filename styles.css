@@ -501,37 +501,41 @@ nav ul {
 
 .contact-links {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    width: 100%;
-    max-width: 100%;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
     flex-wrap: wrap;
-  }
-
-.contact-details {
-    font-size: 1.7rem;
-    text-shadow: 2px 2px 1px #1f1f1f;
-    transition: transform 0.3s ease-out;
-    padding: 0.15rem;
-    border-radius: 2.5rem;
+    list-style: none;
   }
 
 @media (max-width: 425px) {
-    .contact-details {
-    font-size: 1.3rem;
+    .contact-links {
+    padding-left: 0.01rem;
+    padding-right: 0.01rem;
     }
 }
 
-.contact-details:hover {
-    transform: translateY(8px);
-  }
+.contact-links img {
+    height: 100%;
+    background-color: white;
+    border-radius: 0.25rem;
+}
 
-.btn {
-    display: inline-block;
-    padding: 1rem 1.5rem;
-    color: #EE6C4D;
-  }
+.contact-links a {
+    border-radius: 0.5rem;
+    font-weight: 900;
+}
+
+@media (max-width: 425px) {
+    .contact-links a {
+    font-weight: 700;
+    }
+}
 
 /* FOOTER */
 
